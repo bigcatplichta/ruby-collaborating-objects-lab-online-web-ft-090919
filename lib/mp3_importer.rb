@@ -16,7 +16,7 @@ class MP3Importer
   
   def import 
     #use Song.new_by_filename to create from list of files
-    
+    binding.pry
     @files.each { |file| 
     binding.pry
     Song.new_by_filename(file) }
