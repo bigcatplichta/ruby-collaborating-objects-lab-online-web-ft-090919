@@ -16,5 +16,7 @@ class MP3Importer
   
   def import 
     #use Song.new_by_filename to create from list of files
+    
+    Song.new_by_filename
   end 
 end 
