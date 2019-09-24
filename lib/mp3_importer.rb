@@ -14,7 +14,7 @@ class MP3Importer
     # @files = Dir.glob("#{@path}/*.mp3").each do |f| 
     # f.delete(@path)
       binding.pry
-    end
+    # end
     
      
     
