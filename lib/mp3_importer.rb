@@ -9,7 +9,9 @@ class MP3Importer
   end 
   
   def files
-    @files = Dir.children(@path) #.each {|f| f.gsub!(".mp3", "")}
+    @files = Dir.children(@path) 
+    
+    #.each {|f| f.gsub!(".mp3", "")}
     
     #binding.pry
   end 
