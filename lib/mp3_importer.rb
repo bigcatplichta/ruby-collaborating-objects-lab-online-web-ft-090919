@@ -9,7 +9,7 @@ class MP3Importer
   end 
   
   def files
-    @files = Dir[@path].select {|f| f.File.include?(".mp3")}
+    @files = Dir.children(@path)
     
     # @files = Dir.glob("#{@path}/*.mp3").each do |f| 
     # f.delete(@path)
