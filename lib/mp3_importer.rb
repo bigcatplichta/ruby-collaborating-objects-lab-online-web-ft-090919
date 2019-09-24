@@ -11,16 +11,7 @@ class MP3Importer
   def files
     @files = Dir.children(@path).each {|f| f.gsub!(".mp3", "")}
     
-    # @files = Dir.glob("#{@path}/*.mp3").each do |f| 
-    # f.delete(@path)
-      binding.pry
-    # end
-    
-     
-    
-    
-    
-    
+    binding.pry
   end 
   
   def import 
